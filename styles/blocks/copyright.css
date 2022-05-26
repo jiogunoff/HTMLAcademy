@@ -1,0 +1,18 @@
+.copyright {
+  display: flex;
+  align-items: center;
+  line-height: 26px;
+  gap: 12px;
+}
+
+.copyright-img {
+  display: block;
+}
+
+.copyright-link:hover {
+  fill: #81b3d2;
+}
+
+.copyright-link:active {
+  fill: #333333;
+}

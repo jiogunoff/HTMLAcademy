@@ -1,0 +1,27 @@
+.custom-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 22px;
+  min-width: 56px;
+  width: 56px;
+  height: 56px;
+  background-color: #f2f2f2;
+}
+
+.custom-checkbox-icon {
+  visibility: hidden;
+}
+
+.form-checkbox:checked + .custom-checkbox .custom-checkbox-icon {
+  visibility: visible;
+}
+
+.custom-checkbox:hover {
+  background-color: #e5e5e5;
+}
+
+.custom-checkbox:active {
+  background-color: #d5d5d5;
+  fill: #333333;
+}

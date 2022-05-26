@@ -1,0 +1,23 @@
+@import "styles/font.css";
+@import "styles/reset.css";
+
+@import "styles/mixins/button.css";
+@import "styles/mixins/checkbox.css";
+@import "styles/mixins/common.css";
+@import "styles/mixins/input.css";
+@import "styles/mixins/radio.css";
+@import "styles/mixins/title.css";
+
+@import "styles/blocks/advantages.css";
+@import "styles/blocks/banner.css";
+@import "styles/blocks/body.css";
+@import "styles/blocks/callback.css";
+@import "styles/blocks/copyright.css";
+@import "styles/blocks/footer.css";
+@import "styles/blocks/form.css";
+@import "styles/blocks/header.css";
+@import "styles/blocks/main-content.css";
+@import "styles/blocks/map.css";
+@import "styles/blocks/menu.css";
+@import "styles/blocks/reasons.css";
+@import "styles/blocks/socials.css";

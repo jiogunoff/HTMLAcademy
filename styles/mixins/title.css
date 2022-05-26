@@ -1,0 +1,21 @@
+.title-s {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.title-m {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  .title-s {
+    font-size: 21px;
+  }
+
+  .title-m {
+    font-size: 30px;
+  }
+}

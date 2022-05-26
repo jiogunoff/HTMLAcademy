@@ -1,0 +1,63 @@
+.reasons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reasons-header {
+  padding: 32px 20px;
+}
+
+.reasons-title {
+  margin-bottom: 28px;
+  max-width: 438px;
+}
+
+.reasons-item {
+  position: relative;
+}
+
+.reasons-item.regular:not(:last-child)::after {
+  content: "";
+  background-color: #d6d6d6;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  height: 1px;
+}
+
+.reason-card {
+  background-color: #eeeeee;
+  padding: 36px 20px;
+}
+
+.reason-title {
+  margin-bottom: 12px;
+}
+
+.reason-card.blue {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.reason-card.blue .reason-title {
+  color: #ffffff;
+}
+
+.reasons-text {
+  line-height: 26px;
+}
+
+.reason-number {
+  margin-bottom: 14px;
+}
+
+@media (min-width: 768px) {
+  .reason-title {
+    margin-bottom: 14px;
+  }
+  .reason-number {
+    margin-bottom: 22px;
+  }
+}

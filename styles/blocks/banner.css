@@ -1,0 +1,34 @@
+.banner {
+  position: relative;
+  width: 100%;
+  background-color: #b4cad8;
+  background-image: url("../../images/banner-back.jpg");
+}
+
+.banner.main-page {
+  height: 389px;
+  background-position: center top;
+}
+
+.banner.form-page {
+  height: 157px;
+  background-position: center bottom;
+}
+
+.banner-img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.banner-img.main-page {
+  height: 66.9%;
+  width: 87.5%;
+  top: 18%;
+}
+
+.banner-img.form-page {
+  height: 24.9%;
+  width: 71.6%;
+  top: 33.1%;
+}

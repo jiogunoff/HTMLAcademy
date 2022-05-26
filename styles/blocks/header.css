@@ -1,0 +1,39 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  height: 56px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffffff;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.logo-img-background {
+  visibility: hidden;
+}
+
+.page-title {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    z-index: 11;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo-img-background {
+    visibility: visible;
+  }
+}

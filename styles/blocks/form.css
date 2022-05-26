@@ -1,0 +1,88 @@
+.form {
+  line-height: 26px;
+}
+
+.form-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.form-legend {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-fieldset {
+  position: relative;
+  margin-inline-start: 0px;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-end: 0;
+  min-inline-size: unset;
+  width: 100%;
+  padding: 0 20px 20px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-label-column {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-text {
+  text-align: left;
+}
+
+.form-text-left {
+  margin-right: 12px;
+}
+
+.form-text-top {
+  margin-bottom: 5px;
+  padding: 0 20px;
+}
+
+.form-input {
+  padding: 0 22px;
+}
+
+.form-input-wrapper {
+  display: flex;
+}
+
+.form-input-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+  background-color: #e6e6e6;
+}
+
+.form-textarea {
+  padding: 18px 22px 14px;
+  height: 160px;
+  resize: none;
+}
+
+.form-submit-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 20px;
+  width: 100%;
+}
+
+.form-button {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,30 @@
+.callback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 38px 20px 48px;
+}
+
+.callback-title {
+  margin-bottom: 24px;
+}
+
+.callback-text {
+  line-height: 24px;
+  margin-bottom: 24px;
+  max-width: 435px;
+}
+
+.callback-link {
+  height: 56px;
+}
+
+@media (min-width: 768px) {
+  .callback-title {
+    margin-bottom: 32px;
+  }
+
+  .callback-text {
+    margin-bottom: 36px;
+  }
+}

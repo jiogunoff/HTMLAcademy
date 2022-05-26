@@ -1,0 +1,48 @@
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+textarea {
+  font-family: inherit;
+  text-transform: inherit;
+  background-color: inherit;
+  line-height: inherit;
+  border: 0;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+input {
+  border: 0;
+}
+
+.svg-sprite {
+  position: absolute;
+}

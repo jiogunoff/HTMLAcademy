@@ -1,0 +1,17 @@
+.socials-list {
+  display: flex;
+  gap: 6px;
+}
+
+.socials-link {
+  display: flex;
+
+  background-color: #81b3d2;
+  color: #ffffff;
+  fill: currentColor;
+  width: 48px;
+  height: 48px;
+
+  justify-content: center;
+  align-items: center;
+}
