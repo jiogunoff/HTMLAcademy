@@ -32,6 +32,18 @@
   padding: 36px 20px;
 }
 
+.reason-img {
+  height: 260px;
+}
+
+.reason-city-img {
+  background-image: url("../../images/city.jpg");
+}
+
+.reason-bridge-img {
+  background-image: url("../../images/bridge.jpg");
+}
+
 .reason-title {
   margin-bottom: 12px;
 }
@@ -54,6 +66,27 @@
 }
 
 @media (min-width: 768px) {
+  .reasons-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .reasons-item {
+    width: 100%;
+  }
+  .reasons-item.regular {
+    width: calc(100% / 3);
+  }
+  .reason-card-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+  .reason-card-wrapper.reverse {
+    flex-direction: row-reverse;
+  }
+  .reason-img {
+    min-width: calc(100%*2/3);
+    height: auto;
+  }
   .reason-title {
     margin-bottom: 14px;
   }
