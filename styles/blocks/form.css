@@ -1,4 +1,7 @@
 .form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   line-height: 26px;
 }
 
@@ -12,6 +15,7 @@
   color: #000000;
   padding-top: 20px;
   margin-bottom: 20px;
+  max-width: 310px;
 }
 
 .form-fieldset {
@@ -93,15 +97,53 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .form-list.checkboxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .form-list.checkboxes .form-item {
+    width: 50%;
+  }
+  .form-fieldset {
+    padding: 0 60px 25px;
+  }
+  .form-fieldset:nth-child(1) {
+    width: 50%;
+  }
+  .form-fieldset:nth-child(3) {
+    width: 50%;
+    order: -1;
+  }
+  .form-submit-wrapper {
+    padding: 20px 60px;
+  }
 }
 
 @media (min-width: 1200px) {
   .form-label-column {
     flex-direction: row;
+    align-items: center;
+  }
+  .form-list.checkboxes .form-item {
+    width: auto;
   }
   .form-list.contacts {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .form-fieldset {
+    padding: 0 120px 25px;
+  }
+  .form-submit-wrapper {
+    padding: 20px 120px;
+  }
+  .form-text {
+    white-space: pre;
+  }
+  .form-text-contact {
+    display: none;
   }
 }
