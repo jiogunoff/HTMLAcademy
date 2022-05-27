@@ -86,7 +86,6 @@
   .reasons-item.regular .reason-card {
     padding: 36px 40px;
   }
-
   .reason-card-wrapper {
     display: flex;
     flex-direction: row;
@@ -103,5 +102,11 @@
   }
   .reason-number {
     margin-bottom: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reason-card {
+    padding: 58px 50px;
   }
 }

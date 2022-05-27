@@ -37,24 +37,43 @@
   .advantages-list {
     display: flex;
     flex-direction: row;
-    padding: 60px 0;
+    padding: 0;
   }
-
   .advantages-item:not(:last-child) {
     margin-bottom: 0;
   }
-
+  .advantages-item:nth-child(2) {
+    order: 3;
+  }
+  .advantages-item:nth-child(3) {
+    order: 2;
+  }
   .advantage-card {
     flex-direction: column;
     align-items: center;
-    padding: 0 36px;
+    padding: 36px 32px;
   }
-
+  .advantage-title {
+    margin-bottom: 23px;
+  }
   .advantage-content {
     text-align: center;
+    padding-top: 0;
   }
-
   .advantage-img-wrapper {
+    width: 75px;
+    height: 75px;
     margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .advantage-img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .advantage-card {
+    padding: 58px 50px;
   }
 }
