@@ -33,6 +33,13 @@
   top: 33.1%;
 }
 
+.banner-img-decoration {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 @media (min-width: 768px) {
   .banner.main-page {
     height: 518px;
