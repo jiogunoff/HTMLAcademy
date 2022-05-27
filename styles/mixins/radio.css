@@ -12,11 +12,13 @@
   border: 15px solid #f2f2f2;
 }
 
-.custom-radio:hover {
-  background-color: #e5e5e5;
-}
-
 .custom-radio:active {
   background-color: #d5d5d5;
   border-color: #333333;
+}
+
+@media (min-width: 1200px) {
+  .custom-radio:hover {
+    background-color: #e5e5e5;
+  }
 }

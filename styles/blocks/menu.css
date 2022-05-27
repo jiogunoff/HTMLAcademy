@@ -144,10 +144,6 @@
     color: #000000;
   }
 
-  .menu-link:hover {
-    color: #81b3d2;
-  }
-
   .menu-link:active {
     background-color: #ffffff;
     color: #000000;
@@ -156,5 +152,10 @@
 
   .menu-toggle-button {
     visibility: hidden;
+  }
+}
+@media (min-width: 1200px) {
+  .menu-link:hover {
+    color: #669ec0;
   }
 }

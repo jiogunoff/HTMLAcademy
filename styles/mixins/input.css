@@ -11,11 +11,18 @@
   text-transform: none;
 }
 
-.input-text:hover {
-  background-color: #e5e5e5;
-}
-
 .input-text:active {
   border-color: #e5e5e5;
   background-color: #ffffff;
+}
+
+.input-text:focus {
+  border-color: #e5e5e5;
+  background-color: #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .input-text:hover {
+    background-color: #e5e5e5;
+  }
 }

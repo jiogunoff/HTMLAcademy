@@ -17,11 +17,13 @@
   visibility: visible;
 }
 
-.custom-checkbox:hover {
-  background-color: #e5e5e5;
-}
-
 .custom-checkbox:active {
   background-color: #d5d5d5;
   fill: #333333;
+}
+
+@media (min-width: 1200px) {
+  .custom-checkbox:hover {
+    background-color: #e5e5e5;
+  }
 }
