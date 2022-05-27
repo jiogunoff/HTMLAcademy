@@ -3,6 +3,7 @@
   width: 100%;
   background-color: #b4cad8;
   background-image: url("../../images/banner-back.jpg");
+  overflow: hidden;
 }
 
 .banner.main-page {
@@ -34,10 +35,7 @@
 }
 
 .banner-img-decoration {
-  position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 @media (min-width: 768px) {
