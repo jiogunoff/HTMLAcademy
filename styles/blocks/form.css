@@ -97,6 +97,15 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .form-fieldset::after {
+    content: "";
+    background-color: #dbdbdb;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    width: 1px;
+    height: 100%;
+  }
   .form-list.checkboxes {
     display: flex;
     flex-direction: row;

@@ -37,11 +37,11 @@
   height: 260px;
 }
 
-.reason-city-img {
+.reason-city {
   background-image: url("../../images/city.jpg");
 }
 
-.reason-bridge-img {
+.reason-bridge {
   background-image: url("../../images/bridge.jpg");
 }
 
