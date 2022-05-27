@@ -32,3 +32,12 @@
   width: 71.6%;
   top: 33.1%;
 }
+
+@media (min-width: 768px) {
+  .banner.main-page {
+    height: 518px;
+  }
+  .banner.form-page {
+    height: 290px;
+  }
+}

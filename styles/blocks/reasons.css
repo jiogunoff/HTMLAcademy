@@ -80,7 +80,14 @@
   .reasons-item.regular {
     width: calc(100% / 3);
   }
-  .reason-card-wrapper{
+  .reason-card {
+    padding: 36px 32px;
+  }
+  .reasons-item.regular .reason-card {
+    padding: 36px 40px;
+  }
+
+  .reason-card-wrapper {
     display: flex;
     flex-direction: row;
   }
@@ -88,7 +95,7 @@
     flex-direction: row-reverse;
   }
   .reason-img {
-    min-width: calc(100%*2/3);
+    min-width: calc(100% * 2 / 3);
     height: auto;
   }
   .reason-title {
