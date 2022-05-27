@@ -57,6 +57,7 @@
 
 .form-input-wrapper {
   display: flex;
+  width: 100%;
 }
 
 .form-input-icon-wrapper {
@@ -85,4 +86,22 @@
 
 .form-button {
   margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .form-submit-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form-label-column {
+    flex-direction: row;
+  }
+  .form-list.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
