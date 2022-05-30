@@ -41,6 +41,7 @@
   width: 100%;
   position: relative;
   min-height: 256px;
+  background-color: #d7e9f7;
 }
 
 .reason-img {
