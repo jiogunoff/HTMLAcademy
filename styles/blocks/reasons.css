@@ -13,7 +13,7 @@
 }
 
 .reasons-title {
-  margin-bottom: 28px;
+  margin: 0 auto 28px;
   max-width: 438px;
 }
 
@@ -54,10 +54,12 @@
 
 .reason-city {
   background-image: url("../../images/city.jpg");
+  background-position: center right;
 }
 
 .reason-bridge {
   background-image: url("../../images/bridge.jpg");
+  background-position: center left;
 }
 
 .reason-title {
