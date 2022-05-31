@@ -9,10 +9,12 @@
   display: block;
 }
 
-.copyright-link:hover {
-  fill: #81b3d2;
+.copyright-link:active {
+  opacity: 0.3;
 }
 
-.copyright-link:active {
-  fill: #333333;
+@media (min-width: 1200px) {
+  .copyright-link:hover:not(:active) {
+    fill: #81b3d2;
+  }
 }
