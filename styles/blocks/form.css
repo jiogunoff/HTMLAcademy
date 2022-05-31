@@ -146,8 +146,14 @@
   .form-fieldset {
     padding: 0 120px 25px;
   }
+  .form-text-top {
+    margin-bottom: 0;
+  }
   .form-submit-wrapper {
     padding: 20px 120px;
+  }
+  .form-button {
+    margin-bottom: 0;
   }
   .form-text {
     white-space: pre;
