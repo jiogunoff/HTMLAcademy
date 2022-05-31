@@ -52,7 +52,7 @@
   background-color: #5496bd;
 }
 .menu-link.current {
-  background-color: #5496bd;
+  background-color: #5496bd !important;
 }
 
 .menu-link-text {
@@ -154,8 +154,8 @@
   }
 
   .menu-link.current {
-    background-color: #ffffff;
-    color: #766357;
+    background-color: #ffffff !important;
+    color: #766357 !important;
   }
 
   .menu-toggle-button {
@@ -168,7 +168,7 @@
     flex-grow: 0;
   }
 
-  .menu-link:hover {
-    color: #669ec0;
+  .menu-link:hover:not(:active) {
+    color: #81b3d2;
   }
 }
