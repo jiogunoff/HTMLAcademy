@@ -50,6 +50,7 @@
 
 .form-text {
   text-align: left;
+  word-wrap: break-word;
 }
 
 .form-text-left {
@@ -130,12 +131,10 @@
 
   .form-list.checkboxes {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
   .form-list.checkboxes .form-item {
-    width: 50%;
+    flex: 1 0 50%;
   }
   .form-fieldset {
     padding: 0 60px 25px;
@@ -161,7 +160,7 @@
     align-items: center;
   }
   .form-list.checkboxes .form-item {
-    width: auto;
+    flex: 1 0 25%;
   }
   .form-list.contacts {
     display: flex;
@@ -179,9 +178,6 @@
   }
   .form-button {
     margin-bottom: 0;
-  }
-  .form-text {
-    white-space: pre;
   }
   .form-text-contact {
     display: none;
