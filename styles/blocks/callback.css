@@ -21,11 +21,21 @@
 }
 
 @media (min-width: 768px) {
+  .callback {
+    padding: 58px 20px 60px;
+  }
+
   .callback-title {
     margin-bottom: 32px;
   }
 
   .callback-text {
     margin-bottom: 36px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .callback {
+    padding-bottom: 72px;
   }
 }
