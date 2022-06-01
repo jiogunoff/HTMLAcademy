@@ -9,6 +9,14 @@
   margin-bottom: 20px;
 }
 
+.form-list.checkboxes .form-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.form-list.comboboxes .form-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+
 .form-legend-decorator {
   display: flex;
   justify-content: center;
@@ -131,9 +139,16 @@
   .form-list.checkboxes {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 75px;
   }
   .form-list.checkboxes .form-item {
     flex: 1 0 50%;
+  }
+  .form-list.checkboxes .form-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .form-list.comboboxes .form-item:not(:last-child) {
+    margin-bottom: 22px;
   }
   .form-fieldset {
     padding: 0 60px 25px;
@@ -158,8 +173,16 @@
     flex-direction: row;
     align-items: center;
   }
+  .form-list.checkboxes {
+    padding: 0;
+    justify-content: space-between;
+  }
   .form-list.checkboxes .form-item {
     flex: 1 0 25%;
+    display: contents;
+  }
+  .form-list.checkboxes .form-item:not(:last-child) {
+    margin-bottom: 0;
   }
   .form-list.contacts {
     display: flex;
