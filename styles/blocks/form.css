@@ -60,6 +60,12 @@
   word-wrap: break-word;
 }
 
+.form-text.bold {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+}
+
 .form-text-left {
   margin-right: 12px;
 }
