@@ -17,6 +17,7 @@
 
 .callback-link {
   height: 56px;
+  max-width: 457px;
 }
 
 @media (min-width: 768px) {

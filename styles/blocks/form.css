@@ -150,6 +150,9 @@
   .form-submit-wrapper {
     padding: 20px 60px;
   }
+  .form-button {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1200px) {
