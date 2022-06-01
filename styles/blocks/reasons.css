@@ -34,8 +34,15 @@
 .reason-card {
   height: 100%;
   background-color: #eeeeee;
+  padding: 24px 36px;
+}
+
+.reason-card.blue {
+  background-color: #81b3d2;
+  color: #ffffff;
   padding: 36px 20px;
 }
+
 .reason-img-wrapper {
   overflow: hidden;
   width: 100%;
@@ -66,11 +73,6 @@
   margin-bottom: 12px;
 }
 
-.reason-card.blue {
-  background-color: #81b3d2;
-  color: #ffffff;
-}
-
 .reason-card.blue .reason-title {
   color: #ffffff;
 }
@@ -81,6 +83,10 @@
 
 .reason-number {
   margin-bottom: 14px;
+}
+
+.reason-card.blue .reason-number {
+  margin-bottom: 16px;
 }
 
 @media (min-width: 768px) {
@@ -99,10 +105,10 @@
     min-width: 256px;
   }
   .reason-card {
-    padding: 36px 32px;
+    padding: 40px 40px;
   }
-  .reasons-item.regular .reason-card {
-    padding: 36px 40px;
+  .reason-card.blue {
+    padding: 40px 32px;
   }
   .reason-card-wrapper {
     flex: 1 0 0;
@@ -120,17 +126,22 @@
   .reason.reverse {
     flex-direction: row-reverse;
   }
-
-  .reason-title {
-    margin-bottom: 14px;
-  }
   .reason-number {
     margin-bottom: 22px;
+  }
+  .reason-card.blue .reason-number {
+    margin-bottom: 24px;
   }
 }
 
 @media (min-width: 1200px) {
   .reason-card {
-    padding: 58px 50px;
+    padding: 48px 54px;
+  }
+  .reason-card.blue {
+    padding: 48px 52px;
+  }
+  .reason-card.blue .reason-number {
+    margin-bottom: 22px;
   }
 }
