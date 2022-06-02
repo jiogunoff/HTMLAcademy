@@ -71,6 +71,7 @@
 }
 
 .form-text-top {
+  white-space: nowrap;
   margin-bottom: 5px;
   padding: 0 20px;
 }
@@ -162,6 +163,7 @@
   }
   .form-list.checkboxes .form-item {
     flex: 1 0 50%;
+    width: 50%;
   }
   .form-list.checkboxes .form-item:not(:last-child) {
     margin-bottom: 32px;
@@ -205,6 +207,7 @@
   .form-list.checkboxes .form-item {
     flex: 1 0 25%;
     display: contents;
+    width: 25%;
   }
   .form-list.checkboxes .form-item:not(:last-child) {
     margin-bottom: 0;
