@@ -5,6 +5,10 @@
   padding: 38px 20px 48px;
 }
 
+.callback-form {
+  padding: 32px 20px 20px;
+}
+
 .callback-title {
   margin-bottom: 24px;
 }
@@ -13,6 +17,10 @@
   line-height: 24px;
   margin-bottom: 24px;
   max-width: 440px;
+}
+
+.callback-form .callback-text {
+  margin-bottom: 0 !important;
 }
 
 .callback-link {
@@ -24,7 +32,9 @@
   .callback {
     padding: 58px 20px 60px;
   }
-
+  .callback-form {
+    padding: 65px 60px 30px;
+  }
   .callback-title {
     margin-bottom: 32px;
   }
@@ -37,5 +47,8 @@
 @media (min-width: 1200px) {
   .callback {
     padding-bottom: 72px;
+  }
+  .callback-form {
+    padding: 115px 120px 0;
   }
 }
