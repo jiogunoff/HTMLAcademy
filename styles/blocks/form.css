@@ -44,6 +44,16 @@
   padding: 0 20px 20px;
 }
 
+.form-fieldset::after {
+  content: "";
+  background-color: #dbdbdb;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+}
+
 .form-label {
   display: flex;
   flex-direction: row;
@@ -123,9 +133,9 @@
     background-color: #dbdbdb;
     position: absolute;
     right: 0;
-    top: -80px;
+    top: 55px;
     width: 1px;
-    height: calc(100% + 40px);
+    height: 292px;
   }
   .form-legend-decorator::after {
     content: "";
@@ -135,6 +145,12 @@
     top: 50%;
     width: 100%;
     height: 1px;
+  }
+  .form-fieldset.userinfo .form-legend-decorator::after {
+    display: none;
+  }
+  .form-fieldset.impress .form-legend-decorator::after {
+    display: none;
   }
 
   .form-legend-decorator .form-legend {
