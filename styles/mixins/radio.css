@@ -14,11 +14,18 @@
 
 .custom-radio:active {
   background-color: #d5d5d5;
-  border-color: #333333;
+}
+.form-radio:checked + .custom-radio:active {
+  background-color: rgba(51, 51, 51, 0.3);
+  border-color: #d5d5d5;
 }
 
 @media (min-width: 1200px) {
-  .custom-radio:hover {
+  .custom-radio:hover:not(:active) {
     background-color: #e5e5e5;
+  }
+  .form-radio:checked + .custom-radio:hover:not(:active) {
+    background-color: #333333;
+    border-color: #e5e5e5;
   }
 }

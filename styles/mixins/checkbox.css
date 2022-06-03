@@ -19,11 +19,11 @@
 
 .custom-checkbox:active {
   background-color: #d5d5d5;
-  fill: #333333;
+  fill: rgba(51, 51, 51, 0.3);
 }
 
 @media (min-width: 1200px) {
-  .custom-checkbox:hover {
+  .custom-checkbox:hover:not(:active) {
     background-color: #e5e5e5;
   }
 }

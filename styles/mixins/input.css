@@ -16,13 +16,8 @@
   background-color: #ffffff;
 }
 
-.input-text:focus {
-  border-color: #e5e5e5;
-  background-color: #ffffff;
-}
-
 @media (min-width: 1200px) {
-  .input-text:hover {
+  .input-text:hover:not(:active) {
     background-color: #e5e5e5;
   }
 }
