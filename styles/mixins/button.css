@@ -8,7 +8,6 @@
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-  height: 58px;
   width: 100%;
   cursor: pointer;
 }
@@ -20,6 +19,15 @@
 
 .button:disabled {
   background-color: #e5e5e5;
+}
+
+.button-m {
+  height: 58px;
+  padding: 0 20px;
+}
+
+.button-s {
+  height: 48px;
 }
 
 @media (min-width: 1200px) {
