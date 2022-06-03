@@ -150,8 +150,7 @@
 
   .menu-link:active {
     background-color: #ffffff;
-    color: #000000;
-    opacity: 30%;
+    color: rgba(0, 0, 0, 0.3);
   }
 
   .menu-link.current {
