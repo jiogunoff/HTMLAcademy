@@ -13,7 +13,7 @@
 }
 
 .reasons-title {
-  margin: 0 auto 28px;
+  margin: 0 auto 30px;
   max-width: 438px;
 }
 
@@ -125,9 +125,6 @@
   .reason {
     display: flex;
     flex-direction: row;
-  }
-  .reasons-title {
-    margin-bottom: 30px;
   }
   .reason.reverse {
     flex-direction: row-reverse;
