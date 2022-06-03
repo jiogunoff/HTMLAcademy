@@ -126,6 +126,9 @@
     display: flex;
     flex-direction: row;
   }
+  .reason-title-second {
+    display: block;
+  }
   .reason.reverse {
     flex-direction: row-reverse;
   }
