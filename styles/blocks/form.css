@@ -5,14 +5,16 @@
   line-height: 26px;
 }
 
-.form-item:not(:last-child) {
-  margin-bottom: 20px;
+.form-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.form-list.checkboxes .form-item:not(:last-child) {
-  margin-bottom: 24px;
+.form-list.checkboxes {
+  gap: 24px;
 }
-.form-list.comboboxes .form-item:not(:last-child) {
-  margin-bottom: 14px;
+.form-list.comboboxes {
+  gap: 14px;
 }
 .form-item {
   display: inline-block;
@@ -176,21 +178,19 @@
   }
 
   .form-list.checkboxes {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     padding: 0 75px;
   }
   .form-list.checkboxes .form-item {
-    width: 50%;
-    margin-bottom: 32px;
-    padding-right: 20px;
+    width: calc(50% - 32px);
   }
-  .form-list.checkboxes .form-item:nth-last-child(-n + 2) {
-    margin-bottom: 0;
+  .form-list.checkboxes {
+    gap: 32px;
   }
-  .form-list.comboboxes .form-item:not(:last-child) {
-    margin-bottom: 22px;
+  .form-list.comboboxes {
+    gap: 22px;
   }
   .form-fieldset {
     padding: 0 60px 50px;
@@ -226,13 +226,9 @@
     padding: 0;
   }
   .form-list.checkboxes .form-item {
-    width: 25%;
-  }
-  .form-list.checkboxes .form-item:nth-last-child(n) {
-    margin-bottom: 0;
+    width: calc(25% - 32px);
   }
   .form-list.contacts {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
