@@ -183,8 +183,11 @@
   }
   .form-list.checkboxes .form-item {
     width: 50%;
-    margin-bottom: 32px !important;
+    margin-bottom: 32px;
     padding-right: 20px;
+  }
+  .form-list.checkboxes .form-item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
   }
   .form-list.comboboxes .form-item:not(:last-child) {
     margin-bottom: 22px;
@@ -224,7 +227,9 @@
   }
   .form-list.checkboxes .form-item {
     width: 25%;
-    margin-bottom: 0 !important;
+  }
+  .form-list.checkboxes .form-item:nth-last-child(n) {
+    margin-bottom: 0;
   }
   .form-list.contacts {
     display: flex;
